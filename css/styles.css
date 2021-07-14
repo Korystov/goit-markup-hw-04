@@ -54,13 +54,22 @@ ul {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .button-modal,
 .btn-filter {
 cursor: pointer;
 }
 
-.link {
-    text-decoration: none;
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+
 }
 
 /* Header */
@@ -184,14 +193,29 @@ margin: 0 auto 30px;
 
 /* Features */
 
+.features-section {
+    padding-bottom: 47px;
+}
+
+.features-section-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30;
+    margin-left: -30;
+}
+
 .features-section-list-item {
     text-align: left;
+    margin-top: 30;
+    margin-left: 30;
+    flex-basis: calc((100% - 120px) / 4);
 }
 
 .features-section-list-title {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .features-section-list-text {
