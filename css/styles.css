@@ -37,6 +37,11 @@ img {
     display: block;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 /* common */
 
 .section {
@@ -246,7 +251,22 @@ background-color: var(--background-color-light);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    margin-bottom: 50px;
     
+}
+
+.team-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+    
+}
+
+.team-section-list-item {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 120px) / 4);
 }
 
 .services-section-list {
@@ -270,12 +290,14 @@ background-color: var(--background-color-light);
 
 .team-section-card-text-container {
     text-align: center;
+    padding: 30px 15px;
 }
 
 .team-section-card-title {
     font-weight: 500;
     font-size: var(--secondary-text-size);
     line-height: 1.19;
+    margin-bottom: 10px;
 } 
 
 .team-section-card-text {
@@ -288,16 +310,25 @@ color: #757575;
 
 .footer {
     background-color: var(--background-color-dark);
+    padding: 60px 0;
 }
 
 .logo-alt {
     color: var(--main-color-light);
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 .footer-address-link {
     font-style: normal;
     line-height: 1.71;
     color: var(--main-color-light);
+    display: block;
+    margin-bottom: 9px;
+}
+
+.footer-address-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-address-list-link {
