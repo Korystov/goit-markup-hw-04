@@ -33,7 +33,7 @@ ul {
     padding: 0;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -225,10 +225,15 @@ margin: 0 auto 30px;
 
 /* What are we doing */
 
-.services-section-title title {
+.services-section {
+    padding-top: 47px;
+}
+
+.services-section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    margin-bottom: 50px;
 }
 
 /* team */
@@ -238,9 +243,23 @@ background-color: var(--background-color-light);
 }
 
 .team-section-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    
+}
+
+.services-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.services-section-list-item {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 90px) / 3);
 }
 
 .team-section-card {
