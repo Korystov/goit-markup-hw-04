@@ -215,8 +215,12 @@ figure {
 }
 
 .features-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   margin-bottom: 30px;
-  background-color: #f5f4fa;
+  background-color: var(--background-color-light);
   border-radius: 4px;
 }
 
@@ -318,6 +322,37 @@ figure {
   font-size: var(--secondary-text-size);
   line-height: 1.19;
   color: #757575;
+  margin-bottom: 16px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-list-item {
+  width: 44px;
+  height: 44px;
+}
+
+.team-section-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  fill: #afb1b8;
+  border-radius: 50%;
+}
+
+.team-social-list-link:hover,
+.team-social-list-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--main-color-light);
 }
 
 /*Clients*/
