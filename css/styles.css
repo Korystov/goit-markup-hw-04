@@ -89,7 +89,6 @@ figure {
 
 .hedear-container {
   display: flex;
-  padding: 24px 0 25px;
 }
 
 .menu {
@@ -121,7 +120,7 @@ figure {
   letter-spacing: 0.02em;
   color: var(--main-color-dark);
   display: block;
-  padding: 8px 0 6px;
+  padding: 32px 0px;
 }
 
 .contact-list {
@@ -146,19 +145,12 @@ figure {
   line-height: 1.14x;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 0 6px;
-  fill: var(--secondary-color);
+  display: block;
+  padding: 32px 0;
 }
 
 .current-link {
   color: var(--accent-color);
-}
-
-.contact-icon {
-  margin-right: 10px;
 }
 
 .menu-list-link:hover,
@@ -168,23 +160,12 @@ figure {
 .contact-list-link:focus,
 .menu-link:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
 /* Hearo */
 
 .hero-section {
   background-color: var(--background-color-dark);
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/bg/bg_hero.jpeg);
-  max-width: 1600px;
-  min-height: 600px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   padding: 200px 0px;
 }
 
@@ -231,16 +212,6 @@ figure {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-}
-
-.features-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--background-color-light);
-  border-radius: 4px;
 }
 
 .features-section-list-item {
@@ -341,81 +312,6 @@ figure {
   font-size: var(--secondary-text-size);
   line-height: 1.19;
   color: #757575;
-  margin-bottom: 16px;
-}
-
-.team-social-list {
-  display: flex;
-  justify-content: center;
-}
-
-.team-social-list-item {
-  width: 44px;
-  height: 44px;
-}
-
-.team-section-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.team-social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  fill: #afb1b8;
-  border-radius: 50%;
-}
-
-.team-social-list-link:hover,
-.team-social-list-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--main-color-light);
-}
-
-/*Clients*/
-
-.clients-section-container {
-  text-align: center;
-}
-
-.clients-section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  margin-bottom: 50px;
-}
-
-.clients-section-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-
-.clients-section-list-item {
-  margin-top: 30px;
-  margin-left: 30px;
-  flex-basis: calc((100% - 180px) / 6);
-  height: 92px;
-}
-
-.clients-section-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  fill: #afb1b8;
-}
-
-.clients-section-list-link:hover,
-.clients-section-list-link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
 }
 
 /* Footer */
@@ -423,14 +319,6 @@ figure {
 .footer {
   background-color: var(--background-color-dark);
   padding: 60px 0;
-}
-
-.footer-container {
-  display: flex;
-}
-
-.footer-address-container {
-  margin-right: 70px;
 }
 
 .logo-alt {
@@ -462,48 +350,6 @@ figure {
 .footer-address-link:focus,
 .footer-address-list-link:focus {
   color: #2196f3;
-}
-
-.footer-social-container {
-  margin-top: 12px;
-}
-
-.footer-social-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--main-color-light);
-  margin-bottom: 20px;
-}
-
-.footer-social-list {
-  display: flex;
-}
-
-.footer-social-list-item {
-  width: 44px;
-  height: 44px;
-}
-
-.footer-social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer-social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--main-color-light);
-}
-
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  background-color: var(--accent-color);
 }
 
 /* collections */

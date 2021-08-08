@@ -19,30 +19,46 @@ Single-colored icons can be modified like so:
   width: 1.3330078125em;
 }
 
-.smartphon {
+.smartphone {
   width: 0.625em;
 }
 
-.Client_1 {
+.antenna {
+  width: 0.9482421875em;
+}
+
+.clock {
+  width: 0.974609375em;
+}
+
+.diagram {
+  width: 1.1142578125em;
+}
+
+.astronaut {
+  width: 1.0537109375em;
+}
+
+.client-1 {
   width: 0.8720703125em;
 }
 
-.Client_2 {
+.client-2 {
   width: 0.76953125em;
 }
 
-.Client_3 {
+.client-3 {
   width: 1.0712890625em;
 }
 
-.Client_4 {
+.client-4 {
   width: 2.0234375em;
 }
 
-.Client_5 {
+.client-5 {
   width: 1.3408203125em;
 }
 
-.Client_6 {
-  width: 1.7666015625em;
+.client-6 {
+  width: 2.0888671875em;
 }
