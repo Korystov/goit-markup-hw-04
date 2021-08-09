@@ -23,7 +23,7 @@
   <body>
     <!--Header-->
 
-    <header class="header">
+    <header class="hedear">
       <div class="hedear-container container">
         <nav class="menu">
           <a class="logo link" href="./index.html" lang="en">
@@ -31,12 +31,12 @@
           </a>
           <ul class="menu-list list">
             <li class="menu-list-item">
-              <a class="menu-list-link link" href="./index.html">Студия</a>
+              <a class="menu-list-link link current-link" href="./index.html"
+                >Студия</a
+              >
             </li>
             <li class="menu-list-item">
-              <a
-                class="menu-list-link link current-link"
-                href="./portfolio.html"
+              <a class="menu-list-link link" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
@@ -47,13 +47,23 @@
         </nav>
         <ul class="contact-list list">
           <li class="contact-list-item">
-            <a class="contact-list-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a
+              class="contact-list-link link"
+              href="mailto:info@devstudio.com"
+              lang="en"
             >
+              <svg class="contact-icon" width="16">
+                <use href="./images/sprite.svg#mail"></use>
+              </svg>
+              <span>info@devstudio.com</span>
+            </a>
           </li>
           <li class="contact-list-item">
-            <a class="contact-list-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="contact-list-link link" href="tel:+380961111111">
+              <svg class="contact-icon" width="10">
+                <use href="./images/sprite.svg#smartphone"></use>
+              </svg>
+              <span>+38 096 111 11 11</span></a
             >
           </li>
         </ul>

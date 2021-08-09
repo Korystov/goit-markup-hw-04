@@ -57,7 +57,8 @@ figure {
 .container {
   width: 1200px;
   margin: 0px auto;
-  padding: 0px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
@@ -84,11 +85,14 @@ figure {
 /* Header */
 
 .hedear {
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
 .hedear-container {
   display: flex;
+  align-items: center;
 }
 
 .menu {
@@ -100,18 +104,14 @@ figure {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #000000;
-  display: block;
   padding: 24px 0 25px;
   margin-right: 93px;
 }
 
 .logo-accent {
   color: var(--accent-color);
-}
-
-.menu-list {
-  display: flex;
 }
 
 .menu-link {
@@ -121,12 +121,15 @@ figure {
   color: var(--main-color-dark);
 }
 
+.menu-list,
 .menu-list-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color-dark);
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 8px 0 6px;
 }
 
@@ -172,6 +175,16 @@ figure {
 
 .hero-section {
   background-color: var(--background-color-dark);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg/bg_hero.jpeg);
+  max-width: 1600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
   padding: 200px 0px;
 }
 
